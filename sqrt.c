@@ -4,6 +4,12 @@ positive number. */
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+
+bool valid(int n)  {
+	if(n<0)
+		return false;
+	return true;
+}
 //This is a comment before main function
 int main(int argc, char* argv[]) {
 	
