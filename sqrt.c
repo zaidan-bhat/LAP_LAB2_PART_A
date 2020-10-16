@@ -10,6 +10,14 @@ bool valid(int n)  {
 		return false;
 	return true;
 }
+
+void negsqr(int n)  {
+	n=-1*n;
+	printf("Sqrt of %d is %fi\n",n,sqrt(n));
+	printf("End of program. Exiting\n");
+	return;
+}
+
 //This is a comment before main function
 int main(int argc, char* argv[]) {
 	
